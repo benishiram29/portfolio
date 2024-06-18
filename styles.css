@@ -1303,12 +1303,10 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            overflow-x: hidden;
-            box-sizing: border-box;
         }
     
         .container {
-            width: 90%;
+            width: 80%;
             box-sizing: border-box;
             padding: 0 20px;
         }
@@ -1320,7 +1318,7 @@
             color: #fff;
             position: relative;
             margin: 0;
-          
+            width:100%;
         }
     
         header h1 {
