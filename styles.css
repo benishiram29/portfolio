@@ -1054,7 +1054,7 @@
         }
     }
     
-   @media screen and (max-width: 600px) {
+   @media screen and (max-width: 576px-600px) {
     body {
         font-family: 'Times New Roman', Times, serif;
         margin: 0;
