@@ -1292,3 +1292,77 @@
         color: #ff69b4;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 2.5em; /* Adjusted font size for mobile */
+    }
+    header p {
+        font-size: 0.8em; /* Adjusted font size for mobile */
+    }
+    #hero {
+        padding: 60px 0;
+        margin-top: -60px;
+    }
+    #hero h2 {
+        font-size: 2em; /* Adjusted font size for mobile */
+        margin-bottom: 15px;
+    }
+    #hero p {
+        font-size: 1em; /* Adjusted font size for mobile */
+        margin-bottom: 20px;
+    }
+    #hero .btn {
+        font-size: 0.9em; /* Adjusted font size for mobile */
+    }
+    h2 {
+        font-size: 1.8em; /* Adjusted font size for mobile */
+        margin-bottom: 25px;
+    }
+    h3 {
+        font-size: 1.1em; /* Adjusted font size for mobile */
+    }
+    h4 {
+        font-size: 0.9em; /* Adjusted font size for mobile */
+    }
+    h7::after,
+    h2::after {
+        width: 25px; /* Adjusted width for mobile */
+        margin: 10px auto 0;
+    }
+    #about {
+        margin-top: -50px; /* Adjusted margin for mobile */
+    }
+    #about p,
+    #portfolio p,
+    #services p,
+    #cv p {
+        font-size: 0.9em; /* Adjusted font size for mobile */
+        line-height: 1.4em;
+        margin-bottom: 15px;
+    }
+    .portfolio-item,
+    .service,
+    .cv-content {
+        padding: 10px;
+        margin: 8px;
+        width: 100%;
+    }
+    .cv-content {
+        padding: 10px;
+    }
+    .cv-content .btn,
+    .btn {
+        font-size: 0.8em; /* Adjusted font size for mobile */
+        padding: 6px 12px; /* Reduced padding for mobile */
+    }
+    .social-icons a {
+        margin: 0 5px;
+        font-size: 18px; /* Adjusted font size for mobile */
+    }
+    .skill-box {
+        padding: 3px 6px; /* Reduced padding for mobile */
+        margin: 3px;
+    }
+}
