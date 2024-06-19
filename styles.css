@@ -1359,7 +1359,10 @@ margin-bottom: 70px;
       overflow-x: hidden; 
       overflow-y:scroll;
     }
-  
+  #home img{
+    width: 250px;
+    height: 250px;
+  }
     .container {
       width: 100%; /* Make containers full-width */
       padding: 0 5px; /* Reduce padding for smaller screens */
@@ -1442,6 +1445,8 @@ margin-bottom: 70px;
   
     #hero img {
       margin-right: 250px; /* Adjust image margin */
+      width: 250px;
+    height: 250px;
     }
   
     .container p {
