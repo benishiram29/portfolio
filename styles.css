@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -36,21 +35,21 @@ header p {
     font-size: 1.2em;
 }
 
-header img{
-    border-radius: 50%; 
-    width: 350px; 
-    height: 350px; 
-    object-fit: cover; 
+header img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
     object-position: center;
 }
 
-#hero img{
-    border-radius: 50%; 
-    width: 350px; 
-    height: 350px; 
-    object-fit: cover; 
-    object-position: 
-    center; 
+#hero img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position:
+        center;
     margin-top: -50px;
 }
 
@@ -424,6 +423,7 @@ nav ul li a:hover {
         font-family: 'Lucida Handwriting', cursive;
         font-size: 2.5em;
         margin: 0;
+        margin-left: 300px;
     }
 
     header h4 {
@@ -435,6 +435,7 @@ nav ul li a:hover {
         width: 300px;
         height: 300px;
         margin-bottom: 10px;
+        margin-left: 20px;
     }
 
     #hero {
@@ -457,11 +458,11 @@ nav ul li a:hover {
     #hero img {
         width: 300px;
         height: 300px;
-        margin-right: 130px;
+        margin-right: 150px;
     }
 
     .container p {
-        margin-right: 850px;
+        margin-right: 750px;
         width: 100%;
     }
 
@@ -480,6 +481,10 @@ nav ul li a:hover {
 
     #hero .btn:hover {
         background-color: #ffb6c1;
+    }
+
+    #about p {
+        width: 90%;
     }
 
     .service {
@@ -566,13 +571,15 @@ nav ul li a:hover {
 
 
 @media screen and (max-width: 992px) {
+
     html,
-body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    overflow-y: scroll;
-}
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        overflow-y: scroll;
+    }
+
     body {
         font-family: 'Times New Roman', Times, serif;
         margin: 0;
@@ -615,7 +622,8 @@ body {
 
     header h1 {
         font-size: 2.2em;
-        /* Updated font size */
+        margin-left: 250px;
+        width: 100%;
     }
 
     header h4 {
@@ -624,6 +632,7 @@ body {
     }
 
     header img {
+        margin-left: 20px;
         width: 250px;
         height: 250px;
     }
@@ -685,6 +694,10 @@ body {
 
     #hero p {
         font-size: 1.5em;
+    }
+
+    #about p {
+        width: 90%;
     }
 
     #hero img {
@@ -846,13 +859,15 @@ body {
 
 
 @media screen and (max-width: 768px) {
+
     html,
-body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    overflow-y: scroll;
-}
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        overflow-y: scroll;
+    }
+
     body {
         font-family: 'Times New Roman', Times, serif;
         margin: 0;
@@ -889,7 +904,8 @@ body {
         font-family: 'Lucida Handwriting', cursive;
         margin: 0;
         font-size: 2.5em;
-        /* Adjusted font size */
+        margin-left: 150px;
+        width: 100%;
     }
 
     header h4 {
@@ -897,10 +913,7 @@ body {
         /* Adjusted font size */
     }
 
-    header img {
-        width: 200px;
-        height: 200px;
-    }
+
 
     header p {
         margin: 0;
@@ -976,13 +989,11 @@ body {
     }
 
     #hero img {
-        width: 200px;
-        height: 200px;
         margin-right: 300px;
     }
 
     .container p {
-        margin-right: 900px;
+        margin-right: 650px;
         width: 100%;
     }
 
@@ -1052,10 +1063,15 @@ body {
     #about {
         margin-top: -80px;
     }
-#about p{
-    font-size: 1em;
-}
-    #about p,
+
+    #about p {
+        font-size: 1.3em;
+        line-height: 1.6em;
+        text-align: center;
+        margin: 0 auto 20px;
+        width: 80%;
+    }
+
     #portfolio p,
     #services p,
     #cv p {
@@ -1078,7 +1094,7 @@ body {
         background-color: #fff;
         padding: 20px;
         margin: 10px;
-        width: calc(100% - 20px);
+        width: calc(80% - 20px);
         /* Adjusted width */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
@@ -1092,7 +1108,7 @@ body {
         border: 2px dashed #ff69b4;
         padding: 20px;
         background-color: #fff5f5;
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -1171,13 +1187,15 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+
     html,
-body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    overflow-y: scroll;
-}
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        overflow-y: scroll;
+    }
+
     body {
         font-family: 'Times New Roman', Times, serif;
         margin: 0;
@@ -1325,9 +1343,11 @@ body {
     #about {
         margin-top: -80px;
     }
-    #about p{
+
+    #about p {
         font-size: 1em;
     }
+
     #about p,
     #portfolio p,
     #services p,
@@ -1428,13 +1448,15 @@ body {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+
     html,
     body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    overflow-y: scroll;
-   }
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        overflow-y: scroll;
+    }
+
     body {
         font-size: 12px;
         /* Decrease font size for smaller screens */
@@ -1480,12 +1502,14 @@ body {
         color: black;
         text-shadow: 1px 1px white;
     }
-    header img{
+
+    header img {
         margin-top: 10px;
-        width:150px;
-        height:150px;
-        border-radius:50%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
     }
+
     header p {
         font-size: 0.8em;
         /* Adjust paragraph size */
@@ -1544,7 +1568,7 @@ body {
 
     #hero p {
         margin-bottom: 20px;
-        /* Adjust margin */
+        width: 50%;
     }
 
     #hero .btn {
@@ -1558,9 +1582,9 @@ body {
 
     #hero img {
         margin-right: 450px;
-        width:150px;
-        height:150px;
-        border-radius:50%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
     }
 
     h2 {
@@ -1680,7 +1704,7 @@ body {
     #contact a {
         color: #ff69b4;
         text-decoration: none;
-        
+
     }
 
     #contact a:hover {
