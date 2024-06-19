@@ -817,6 +817,13 @@ nav ul li a:hover {
 
 
 @media screen and (max-width: 768px) {
+    html,
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
     body {
         font-family: 'Times New Roman', Times, serif;
         margin: 0;
