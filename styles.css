@@ -1456,8 +1456,8 @@ body {
     }
     header img{
         margin-top: 10px;
-        width:250px;
-        height:250px;
+        width:150px;
+        height:150px;
     }
     header p {
         font-size: 0.8em;
@@ -1531,7 +1531,8 @@ body {
 
     #hero img {
         margin-right: 450px;
-        /* Adjust image margin */
+        width:150px;
+        height:150px;
     }
 
 
