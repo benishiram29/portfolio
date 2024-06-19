@@ -1401,11 +1401,10 @@ nav ul li a:hover {
         overflow-y: scroll;
     }
 
-    #home img {
-    width: 200px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    .container img{
+    width: 200px;
+    height: 200px;
 }
-
     .container {
         width: 100%;
         /* Make containers full-width */
@@ -1507,13 +1506,11 @@ nav ul li a:hover {
     #hero img {
         margin-right: 450px;
         /* Adjust image margin */
-        width:20px;
-        height:20px;
     }
 
     .container p {
-        margin-right: 600px;
-        width: 80%;
+        margin-right: 300px;
+        width: 50%;
         font-size: 1em;
     }
 
