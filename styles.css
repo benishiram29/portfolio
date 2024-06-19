@@ -365,7 +365,6 @@
       padding-top: 60px;
   }
 
-
     @media screen and (max-width: 1200px) {
         body {
             font-family: 'Times New Roman', Times, serif;
@@ -377,6 +376,8 @@
             display: flex;
             flex-direction: column;
             align-items: center; /* Center content horizontally */
+            overflow: hidden;
+            overflow-y: scroll;
         }
     
         .container {
@@ -393,6 +394,9 @@
             margin: 0;
             width: 100%; /* Full width within container */
         }
+        #hero h7::after{
+            margin-bottom: 70px;
+        }
     
         header h1 {
             font-family: 'Lucida Handwriting', cursive;
@@ -401,7 +405,7 @@
         }
     
         header h4 {
-            font-size: 1.2em;
+            font-size: 1.5em;
             margin: 10px 0;
         }
     
@@ -427,6 +431,15 @@
             font-size: 1.5em;
             margin-bottom: 40px;
         }
+
+#hero img{
+margin-right: 130px;
+}
+
+        .container p{
+            margin-right: 850px;
+            width: 100%;
+        }
     
         #hero .btn {
             font-size: 1.2em;
@@ -438,6 +451,7 @@
             text-decoration: none;
             font-weight: bold;
             transition: background-color 0.3s;
+            margin-right: 350px;
         }
     
         #hero .btn:hover {
@@ -445,7 +459,8 @@
         }
     
         .service {
-            width: calc(50% - 40px);
+            width: calc(30%);
+            height: 5%;
             padding: 20px;
             margin: 10px;
             background-color: #fff;
@@ -456,21 +471,22 @@
         }
     
         .service h3 {
-            font-size: 1.4em;
+            font-size: 1.1em;
             margin-bottom: 10px;
         }
     
-        .service p {
+        #services p {
             font-size: 1.1em;
-            line-height: 1.6em;
         }
     
         .service img {
-            width: 90%;
-            height: auto;
+            width: 50px;
+            height: 20px;
             border-radius: 10px;
         }
-    
+    .cv-content{
+        width: 70%;
+    }
         .btn {
             background-color: #ff69b4;
             color: #fff;
@@ -534,6 +550,8 @@
             display: flex;
             flex-direction: column;
             max-width: 100%;
+            overflow: hidden;
+            overflow-y: scroll;
         }
     
         .container {
@@ -566,7 +584,7 @@
         }
     
         header h4 {
-            font-size: 1.1em; /* Updated font size */
+            font-size: 1.5em; /* Updated font size */
         }
     
         header img {
@@ -624,11 +642,22 @@
         #hero h7 {
             font-size: 2em;
         }
-    
+    #hero h7::after{
+margin-bottom: 90px;
+    }
         #hero p {
-            font-size: 1.2em;
+            font-size: 1.5em;
         }
     
+     #hero img{
+        margin-right: 250px;
+     }
+        
+.container p{
+    margin-right: 750px;
+    width: 100%;
+}
+
         #hero .btn {
             background-color: #ff69b4;
             color: white;
@@ -638,6 +667,7 @@
             text-decoration: none;
             font-size: 1em; /* Updated font size */
             font-weight: bold;
+            margin-right: 350px;
         }
     
         #hero .btn:hover {
@@ -712,7 +742,7 @@
             border: 2px dashed #ff69b4;
             padding: 20px;
             background-color: #fff5f5;
-            width: 50%;
+            width: 70%;
             margin: 0 auto;
         }
     
@@ -784,6 +814,8 @@
             display: flex;
             flex-direction: column;
             max-width: 100%;
+            overflow: hidden;
+            overflow-y: scroll;
         }
     
         .container {
@@ -805,7 +837,7 @@
         header h1 {
             font-family: 'Lucida Handwriting', cursive;
             margin: 0;
-            font-size: 2em; /* Adjusted font size */
+            font-size: 2.5em; /* Adjusted font size */
         }
     
         header h4 {
@@ -879,18 +911,27 @@
             text-decoration: none;
             font-size: 0.95em; /* Adjusted font size */
             font-weight: bold;
+            margin-right: 350px;
         }
     
         #hero .btn:hover {
             background-color: #fff;
             color: black;
         }
-    
+        #hero img{
+            margin-right: 300px;
+        }
+    .container p{
+        margin-right: 900px;
+        width: 100%;
+    }
         h1,
         h4 {
             display: inline-block;
             text-align: left;
-            text-shadow: 1px 1px black;
+        }  
+        #home h4{
+            font-size: 1.5em;
         }
     
         h6 {
@@ -911,7 +952,10 @@
             text-align: center;
             position: relative;
         }
-    
+    #hero h7::after{
+margin-bottom: 70px;
+
+    }
         h7::after,
         h2::after {
             content: '';
@@ -929,7 +973,7 @@
             color: black;
             position: relative;
         }
-    
+   
         h3,
         h4 {
             font-size: 1.5em; /* Adjusted font size */
@@ -977,7 +1021,7 @@
             border: 2px dashed #ff69b4;
             padding: 20px;
             background-color: #fff5f5;
-            width: 50%;
+            width: 90%;
             margin: 0 auto;
         }
     
@@ -1054,161 +1098,488 @@
         }
     }
     
-  @media screen and (max-width: 600px) {
-    body {
-        font-family: 'Times New Roman', Times, serif;
-        margin: 0;
-        padding: 0;
-        background-image: linear-gradient(white, pink);
-        color: #333;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        overflow-x: hidden;
-        box-sizing: border-box;
+    @media screen and (max-width: 576px) {
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(white, pink);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+    
+        .container {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 20px;
+        }
+    
+        header {
+            background-image: linear-gradient(#ffb6c1, white);
+            padding: 20px 0;
+            text-align: center;
+            color: #fff;
+            position: relative;
+            margin: 0;
+        }
+    
+        header h1 {
+            font-family: 'Lucida Handwriting', cursive;
+            font-size: 2.5em;
+            margin: 0;
+        }
+    
+        header p {
+            font-size: 1em;
+            margin: 0;
+        }
+    
+        nav {
+            margin-top: 10px;
+        }
+    
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+    
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+    
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    
+        section {
+            padding: 60px 0;
+            position: relative;
+            z-index: 1;
+        }
+    
+        #hero {
+            padding: 80px 0;
+            text-align: center;
+        }
+    
+        #hero h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+    
+        #hero p {
+            margin-bottom: 40px;
+        }
+    
+        #hero .btn {
+            font-size: 0.85em;
+            padding: 10px 20px;
+            margin-right: 350px;
+            width: auto;
+        }
+    #hero img{
+        margin-right: 350px;
     }
+.container p{
+    margin-right: 700px;
+    width: 100%;
 
-    /* Adjust font sizes */
-    header h1 {
+}
+
+    #hero h7::after{
+margin-bottom: 70px;
+    }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+    
+        h3 {
+            font-size: 1.2em;
+        }
+    #home h4{
         font-size: 1.5em;
     }
+        h4 {
+            font-size: 0.95em;
+            text-align: left;
+            margin-left: 0;
+            text-shadow: none;
+        }
+    
+        h6 {
+            font-size: 1.5em;
+        }
+    
+        h7 {
+            font-size: 2em;
+        }
+    
+        h7::after,
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #ff69b4;
+            margin: 20px auto 0;
+        }
+    
+        #about {
+            margin-top: -80px;
+        }
+    
+        #about p,
+        #portfolio p,
+        #services p,
+        #cv p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+            text-align: center;
+            margin: 0 auto 20px;
+            width: 90%;
+        }
+    
+        .portfolio-items,
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    
+        .portfolio-item,
+        .service,
+        .cv-content {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            width: calc(100% - 20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+        }
+    .cv-content{
+        width:calc(90% - 20px);
+    }
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+    
+        .cv-content {
+            background-image: url(cvback.jpeg);
+            background-size: cover;
+        }
+    
+        .cv-content p {
+            margin-bottom: 15px;
+        }
+    
+        #contact {
+            text-align: center;
+        }
+    
+        #contact p {
+            font-size: 1.2em;
+        }
+    
+        #contact a {
+            color: #ff69b4;
+            text-decoration: none;
+        }
+    
+        #contact a:hover {
+            text-decoration: underline;
+        }
+    
+        .social-icons {
+            margin-top: 10px;
+        }
+    
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+    
+        .social-icons a:hover {
+            color: #ff69b4;
+        }
+    
+        .skills {
+            margin-top: 20px;
+        }
+    
+        .skill-box {
+            padding: 5px 10px;
+            margin: 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+            background-color: pink;
+        }
+    
+        i {
+            color: #ff69b4;
+        }
+    }
+    @media screen and (min-width: 320px) and (max-width: 480px) {
 
-    header p {
-        font-size: 0.7em;
-    }
-
-    nav ul li a {
-        font-size: 0.8em;
-    }
-
-    section, #hero {
-        padding: 30px 10px; /* Smaller padding for sections */
-    }
-
-    #hero h2 {
-        font-size: 1.3em;
-        margin-bottom: 10px;
-    }
-
-    #hero p {
-        font-size: 0.75em;
-        margin-bottom: 15px;
-    }
-
-    #hero .btn {
-        font-size: 0.7em;
-        padding: 8px 12px;
-    }
-
-    h2 {
-        font-size: 1.3em;
-        margin-bottom: 15px;
-    }
-
-    h3 {
-        font-size: 0.8em;
-    }
-
-    h4 {
-        font-size: 0.75em;
-        margin-bottom: 10px;
-    }
-
-    .portfolio-item, .service, .cv-content {
-        padding: 10px;
-        margin: 10px 5px;
-        width: calc(100% - 10px);
-    }
-
-    .portfolio-item img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .social-icons a {
-        margin: 0 6px;
-        font-size: 16px;
-    }
-
-    .skill-box {
-        padding: 2px 6px;
-        margin: 3px;
-        font-size: 0.7em;
-    }
-}
-
-
-
-@media screen and (max-width: 480px) {
-    header h1 {
-        font-size: 2.5em; /* Adjusted font size for mobile */
-    }
-    header p {
-        font-size: 0.8em; /* Adjusted font size for mobile */
-    }
-    #hero {
-        padding: 60px 0;
-        margin-top: -60px;
-    }
-    #hero h2 {
-        font-size: 2em; /* Adjusted font size for mobile */
-        margin-bottom: 15px;
-    }
-    #hero p {
-        font-size: 1em; /* Adjusted font size for mobile */
-        margin-bottom: 20px;
-    }
-    #hero .btn {
-        font-size: 0.9em; /* Adjusted font size for mobile */
-    }
-    h2 {
-        font-size: 1.8em; /* Adjusted font size for mobile */
-        margin-bottom: 25px;
-    }
-    h3 {
-        font-size: 1.1em; /* Adjusted font size for mobile */
-    }
-    h4 {
-        font-size: 0.9em; /* Adjusted font size for mobile */
-    }
-    h7::after,
-    h2::after {
-        width: 25px; /* Adjusted width for mobile */
-        margin: 10px auto 0;
-    }
-    #about {
-        margin-top: -50px; /* Adjusted margin for mobile */
-    }
-    #about p,
-    #portfolio p,
-    #services p,
-    #cv p {
-        font-size: 0.9em; /* Adjusted font size for mobile */
-        line-height: 1.4em;
-        margin-bottom: 15px;
-    }
-    .portfolio-item,
-    .service,
-    .cv-content {
-        padding: 10px;
-        margin: 8px;
-        width: 100%;
-    }
-    .cv-content {
-        padding: 10px;
-    }
-    .cv-content .btn,
-    .btn {
-        font-size: 0.8em; /* Adjusted font size for mobile */
-        padding: 6px 12px; /* Reduced padding for mobile */
-    }
-    .social-icons a {
-        margin: 0 5px;
-        font-size: 18px; /* Adjusted font size for mobile */
-    }
-    .skill-box {
-        padding: 3px 6px; /* Reduced padding for mobile */
-        margin: 3px;
-    }
-}
+        body {
+          font-size: 12px; /* Decrease font size for smaller screens */
+          font-family: 'Times New Roman', Times, serif;
+          margin: 0;
+          padding: 0;
+          background-image: linear-gradient(white, pink);
+          color: #333;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          overflow-x: hidden;
+          box-sizing: border-box;
+        }
+      
+        .container {
+          width: 100%; /* Make containers full-width */
+          padding: 0 5px; /* Reduce padding for smaller screens */
+        }
+      
+        header {
+          background-image: linear-gradient(#ffb6c1, white);
+          padding: 5px 0; /* Decrease padding for header */
+          text-align: center;
+          color: #fff;
+          position: relative;
+          margin: 0;
+        }
+      
+        header h1 {
+          font-family: 'Lucida Handwriting', cursive;
+          font-size: 1.5em; /* Adjust heading size */
+          margin: 0;
+        }
+      
+        header p {
+          font-size: 0.8em; /* Adjust paragraph size */
+          margin: 0;
+        }
+      
+        nav {
+          margin-top: 5px; /* Adjust margin for navigation */
+        }
+      
+        nav ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+        }
+      
+        nav ul li {
+          display: inline;
+          margin: 0 5px; /* Reduce margin for list items */
+        }
+      
+        nav ul li a {
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: 0.9em; /* Adjust font size for navigation links */
+        }
+      
+        nav ul li a:hover {
+          text-decoration: underline;
+        }
+      
+        section {
+          padding: 30px 0; /* Adjust section padding */
+          position: relative;
+          z-index: 1;
+        }
+      
+        #hero {
+          padding: 40px 0; /* Adjust padding for hero section */
+          text-align: center;
+        }
+      
+        #hero h2 {
+          font-size: 1.5em; /* Adjust heading size */
+          margin-bottom: 10px; /* Adjust margin */
+        }
+      
+        #hero p {
+          margin-bottom: 20px; /* Adjust margin */
+        }
+      
+        #hero .btn {
+          font-size: 0.75em; /* Adjust button font size */
+          padding: 8px 16px; /* Adjust button padding */
+          margin-right: 200px; /* Adjust button margin */
+        }
+      
+        #hero img {
+          margin-right: 200px; /* Adjust image margin */
+        }
+      
+        .container p {
+          margin-right: 400px; /* Adjust paragraph margin */
+          width: 100%;
+        }
+      
+        h2 {
+          font-size: 1.5em; /* Adjust heading size */
+          margin-bottom: 20px; /* Adjust margin */
+        }
+      
+        h3 {
+          font-size: 1em; /* Adjust heading size */
+        }
+      
+        h4 {
+          font-size: 0.8em; /* Adjust heading size */
+          text-align: left;
+          margin-left: 0;
+          text-shadow: none;
+        }
+      
+        h6 {
+          font-size: 1.2em; /* Adjust heading size */
+        }
+      
+        h7 {
+          font-size: 1.5em; /* Adjust heading size */
+        }
+      
+        h7::after,
+        h2::after {
+          content: '';
+          display: block;
+          width: 30px; /* Adjust underline width */
+          height: 1px; /* Adjust underline thickness */
+          background-color: #ff69b4;
+          margin: 10px auto 0; /* Adjust margin */
+        }
+      
+        #about {
+          margin-top: -60px; /* Adjust negative margin */
+        }
+      
+        #about p,
+        #portfolio p,
+        #services p,
+        #cv p {
+          font-size: 0.9em; /* Adjust paragraph font size */
+          line-height: 1.4em; /* Adjust line height */
+          text-align: center;
+          margin: 0 auto 10px; /* Adjust margin */
+          width: 80%; /* Adjust width */
+        }
+      
+        .portfolio-items,
+        .services {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+      
+        .portfolio-item,
+        .service,
+        .cv-content {
+          background-color: #fff;
+          padding: 10px;
+          margin: 5px;
+          width: calc(100% - 10px); /* Adjust width */
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+          text-align: center;
+          position: relative;
+        }
+      
+        .cv-content {
+          width: calc(80% - 10px); /* Adjust width */
+        }
+      
+        .portfolio-item img {
+          width: 100%;
+          border-radius: 8px;
+          height: auto;
+        }
+      
+        .cv-content {
+          background-image: url(cvback.jpeg);
+          background-size: cover;
+        }
+      
+        .cv-content p {
+          margin-bottom: 10px; /* Adjust margin */
+        }
+      
+        #contact {
+          text-align: center;
+        }
+      
+        #contact p {
+          font-size: 0.9em; /* Adjust paragraph font size */
+        }
+      
+        #contact a {
+          color: #ff69b4;
+          text-decoration: none;
+        }
+      
+        #contact a:hover {
+          text-decoration: underline;
+        }
+      
+        .social-icons {
+          margin-top: 5px; /* Adjust margin */
+        }
+      
+        .social-icons a {
+          color: #fff;
+          margin: 0 5px; /* Adjust margin */
+          font-size: 20px; /* Adjust icon size */
+          text-decoration: none;
+        }
+      
+        .social-icons a:hover {
+          color: #ff69b4;
+        }
+      
+        .skills {
+          margin-top: 10px; /* Adjust margin */
+        }
+      
+        .skill-box {
+          padding: 3px 6px; /* Adjust padding */
+          margin: 3px;
+          border: 1px solid white;
+          border-radius: 5px;
+          background-color: pink;
+        }
+      
+        i {
+          color: #ff69b4;
+        }
+      
+        /* Example: Hide a specific element on smaller screens */
+        .hide-on-small-screen {
+          display: none;
+        }
+      }
+      
