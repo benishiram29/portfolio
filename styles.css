@@ -1429,15 +1429,15 @@ margin-bottom: 70px;
         #hero .btn {
           font-size: 0.75em; /* Adjust button font size */
           padding: 8px 16px; /* Adjust button padding */
-          margin-right: 200px; /* Adjust button margin */
+          margin-right: 350px; /* Adjust button margin */
         }
       
         #hero img {
-          margin-right: 200px; /* Adjust image margin */
+          margin-right: 220px; /* Adjust image margin */
         }
       
         .container p {
-          margin-right: 400px; /* Adjust paragraph margin */
+          margin-right: 700px; /* Adjust paragraph margin */
           width: 100%;
         }
       
