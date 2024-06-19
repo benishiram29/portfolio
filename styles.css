@@ -1285,7 +1285,9 @@ nav ul li a:hover {
     #about {
         margin-top: -80px;
     }
-
+    #about p{
+        font-size: 1em;
+    }
     #about p,
     #portfolio p,
     #services p,
