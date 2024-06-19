@@ -1351,7 +1351,7 @@ margin-bottom: 70px;
           display: flex;
           flex-direction: column;
           overflow-x: hidden;
-          box-sizing: border-box;
+          overflow-y: scroll;
         }
       
         .container {
