@@ -1430,6 +1430,8 @@ nav ul li a:hover {
         margin: 0;
         width: 100%;
         margin-left: 90px;
+        color: black;
+        text-shadow: 1px 1px white;
     }
     header img{
         margin-top: 10px;
