@@ -36,6 +36,14 @@ header p {
     font-size: 1.2em;
 }
 
+header img{
+    border-radius: 50%; 
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
+    object-position: center;
+}
+
 nav {
     margin-top: 10px;
 }
