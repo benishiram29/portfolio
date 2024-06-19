@@ -15,11 +15,6 @@ body {
     margin: 0 auto;
 }
 
-#hero a{
-    display: inline-block; 
-    text-align: left; 
-    margin-left: 360px;
-}
 header {
     background-image: linear-gradient(#ffb6c1, white);
     padding: 20px 0;
@@ -1577,12 +1572,7 @@ nav ul li a:hover {
 
     #hero p {
         margin-bottom: 20px;
-        font-size: 1em;
-        margin-left: -20px;
-    }
-
-    #about h2{
-        margin-top:50px;   
+        width: 50%;
     }
 
     #hero .btn {
