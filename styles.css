@@ -1366,6 +1366,7 @@ margin-bottom: 70px;
           color: #fff;
           position: relative;
           margin: 0;
+          overflow-x: hidden;
         }
       
         header h1 {
@@ -1439,6 +1440,7 @@ margin-bottom: 70px;
         .container p {
           margin-right: 700px; /* Adjust paragraph margin */
           width: 100%;
+          font-size:1em;
         }
       
         h2 {
