@@ -44,6 +44,16 @@ header img{
     object-position: center;
 }
 
+#hero img{
+    border-radius: 50%; 
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
+    object-position: 
+    center; 
+    margin-top: -50px;
+}
+
 nav {
     margin-top: 10px;
 }
