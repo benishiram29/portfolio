@@ -1402,7 +1402,8 @@ nav ul li a:hover {
     }
 
     #home img {
-        size: 20%;
+         width:20px;
+        height:20px;
     }
 
     .container {
@@ -1504,13 +1505,14 @@ nav ul li a:hover {
     }
 
     #hero img {
-        margin-right: 250px;
+        margin-right: 450px;
         /* Adjust image margin */
-        size: 20%;
+        width:20px;
+        height:20px;
     }
 
     .container p {
-        margin-right: 700px;
+        margin-right: 600px;
         width: 100%;
         font-size: 1em;
     }
@@ -1591,7 +1593,7 @@ nav ul li a:hover {
         background-color: #fff;
         padding: 10px;
         margin: 5px;
-        width: calc(90%);
+        width: calc(70%);
         /* Adjust width */
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
