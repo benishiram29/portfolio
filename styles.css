@@ -1575,6 +1575,10 @@ nav ul li a:hover {
         width: 50%;
         font-size: 0.8em;
         margin-right: 5px;
+        margin-left: 5px;
+    }
+    #hero a{
+        width: 100%;
     }
 
      #about h2{
