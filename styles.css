@@ -1383,6 +1383,7 @@ margin-bottom: 70px;
       font-family: 'Lucida Handwriting', cursive;
       font-size: 3em; /* Adjust heading size */
       margin: 0;
+      width: 100%;
     }
   
     header p {
