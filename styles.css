@@ -104,6 +104,10 @@ section {
 #hero p {
     font-size: 1.5em;
     margin-bottom: 40px;
+    display: inline-block; 
+    text-align: left; 
+    margin-left: 360px; 
+    color: black;
 }
 
 #hero .btn {
@@ -1568,7 +1572,7 @@ nav ul li a:hover {
 
     #hero p {
         margin-bottom: 20px;
-        width: 50%;
+        width: 60%;
     }
 
     #hero .btn {
