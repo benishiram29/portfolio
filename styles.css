@@ -1573,11 +1573,12 @@ nav ul li a:hover {
     #hero p {
         margin-bottom: 20px;
         font-size: 1em;
+        margin-right:20px;
         width: 60%;
     }
 
     #about h2{
-        margin-top:20px;   
+        margin-top:40px;   
     }
 
     #hero .btn {
