@@ -1402,9 +1402,9 @@ nav ul li a:hover {
     }
 
     #home img {
-         width:20px;
-        height:20px;
-    }
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
 
     .container {
         width: 100%;
@@ -1513,7 +1513,7 @@ nav ul li a:hover {
 
     .container p {
         margin-right: 600px;
-        width: 100%;
+        width: 80%;
         font-size: 1em;
     }
 
