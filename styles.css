@@ -1360,9 +1360,8 @@ margin-bottom: 70px;
       overflow-y:scroll;
     }
   #home img{
-    width: 250px;
-    height: 250px;
-  }
+        size: 50%;
+      }
     .container {
       width: 100%; /* Make containers full-width */
       padding: 0 5px; /* Reduce padding for smaller screens */
