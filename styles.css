@@ -1427,9 +1427,11 @@ nav ul li a:hover {
         /* Adjust heading size */
         margin: 0;
         width: 100%;
-        margin-left: 50px;
+        margin-left: 90px;
     }
-
+    header img{
+        margin-top: 10px;
+    }
     header p {
         font-size: 0.8em;
         /* Adjust paragraph size */
@@ -1505,10 +1507,7 @@ nav ul li a:hover {
         /* Adjust image margin */
     }
 
-    .container p {
-        width: 80%;
-        font-size: 1em;
-    }
+
 
     h2 {
         font-size: 1.5em;
@@ -1627,6 +1626,7 @@ nav ul li a:hover {
     #contact a {
         color: #ff69b4;
         text-decoration: none;
+        
     }
 
     #contact a:hover {
