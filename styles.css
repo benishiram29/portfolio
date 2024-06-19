@@ -1383,6 +1383,7 @@ margin-bottom: 70px;
       font-size: 3em; /* Adjust heading size */
       margin: 0;
       width: 100%;
+      margin-left: 20px;
     }
   
     header p {
@@ -1451,7 +1452,7 @@ margin-bottom: 70px;
   
     .container p {
       margin-right: 500px; /* Adjust paragraph margin */
-      width: 100%;
+      width: 90%;
       font-size:1em;
     }
   
