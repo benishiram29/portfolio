@@ -1433,6 +1433,8 @@ nav ul li a:hover {
     }
     header img{
         margin-top: 10px;
+        width:250px;
+        height:250px;
     }
     header p {
         font-size: 0.8em;
