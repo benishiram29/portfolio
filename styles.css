@@ -1401,10 +1401,7 @@ nav ul li a:hover {
         overflow-y: scroll;
     }
 
-    .container img{
-    width: 200px;
-    height: 200px;
-}
+
     .container {
         width: 100%;
         /* Make containers full-width */
@@ -1509,8 +1506,7 @@ nav ul li a:hover {
     }
 
     .container p {
-        margin-right: 300px;
-        width: 50%;
+        width: 80%;
         font-size: 1em;
     }
 
