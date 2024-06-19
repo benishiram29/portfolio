@@ -390,7 +390,7 @@ nav ul li a:hover {
     }
 
     .container {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -568,7 +568,7 @@ nav ul li a:hover {
     }
 
     .container {
-        width: 95%;
+        width: 100%;
         /* Adjusted width */
         margin: 0 auto;
     }
@@ -841,7 +841,7 @@ nav ul li a:hover {
     .container {
         flex: 1;
         margin: 0 auto;
-        width: 80%;
+        width: 100%;
         /* Adjusted width */
         padding: 10px;
         /* Added padding */
@@ -1402,7 +1402,7 @@ nav ul li a:hover {
     }
 
     #home img {
-        size: 50%;
+        size: 20%;
     }
 
     .container {
@@ -1430,7 +1430,7 @@ nav ul li a:hover {
         /* Adjust heading size */
         margin: 0;
         width: 100%;
-        margin-left: 60px;
+        margin-left: 50px;
     }
 
     header p {
@@ -1506,13 +1506,12 @@ nav ul li a:hover {
     #hero img {
         margin-right: 250px;
         /* Adjust image margin */
-        width: 250px;
-        height: 250px;
+        size: 20%;
     }
 
     .container p {
-        margin-right: 600px;
-        width: 90%;
+        margin-right: 700px;
+        width: 100%;
         font-size: 1em;
     }
 
@@ -1592,7 +1591,7 @@ nav ul li a:hover {
         background-color: #fff;
         padding: 10px;
         margin: 5px;
-        width: calc(90% - 10px);
+        width: calc(90%);
         /* Adjust width */
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
