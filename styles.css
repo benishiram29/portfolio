@@ -2,6 +2,7 @@ html, body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  overflow-y:scroll;
 }
 
 body {
@@ -1345,242 +1346,251 @@ margin-bottom: 70px;
         }
     }
   @media screen and (min-width: 320px) and (max-width: 480px) {
-
-  body {
-    font-size: 12px;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(white, pink);
-    color: #333;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Remove overflow-x: hidden; unless specifically needed */
-  }
-
-  .container {
-    width: 100%;
-    padding: 0 10px; /* Adjust padding as necessary */
-    /* Remove overflow-x: hidden; unless specifically needed */
-  }
-
-  header {
-    background-image: linear-gradient(#ffb6c1, white);
-    padding: 10px 0;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    margin: 0;
-    /* Remove overflow-x: hidden; unless specifically needed */
-  }
-
-  header h1 {
-    font-family: 'Lucida Handwriting', cursive;
-    font-size: 2em;
-    margin: 0;
-  }
-
-  header p {
-    font-size: 0.8em;
-    margin: 0;
-  }
-
-  nav {
-    margin-top: 10px;
-  }
-
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-
-  nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 0.9em;
-  }
-
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
-
-  section {
-    padding: 30px 0;
-    position: relative;
-    z-index: 1;
-  }
-
-  #hero {
-    padding: 40px 0;
-    text-align: center;
-  }
-
-  #hero h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-  }
-
-  #hero p {
-    margin-bottom: 20px;
-  }
-
-  #hero .btn {
-    font-size: 0.85em;
-    padding: 10px 20px;
-    /* Adjust button styling */
-  }
-
-  .container p {
-    margin-right: 10px; /* Adjust paragraph margin */
-    width: 100%;
-    font-size: 1em; /* Adjust font size */
-  }
-
-  h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-  }
-
-  h3 {
-    font-size: 1em;
-  }
-
-  h4 {
-    font-size: 0.8em;
-    text-align: left;
-    margin-left: 0;
-    text-shadow: none;
-  }
-
-  h6 {
-    font-size: 1.2em;
-  }
-
-  h7 {
-    font-size: 1.5em;
-  }
-
-  h7::after,
-  h2::after {
-    content: '';
-    display: block;
-    width: 30px;
-    height: 1px;
-    background-color: #ff69b4;
-    margin: 10px auto 0;
-  }
-
-  #about {
-    margin-top: 0; /* Adjust margin as necessary */
-  }
-
-  #about p,
-  #portfolio p,
-  #services p,
-  #cv p {
-    font-size: 0.9em;
-    line-height: 1.4em;
-    text-align: center;
-    margin: 0 auto 10px;
-    width: 80%;
-  }
-
-  .portfolio-items,
-  .services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .portfolio-item,
-  .service,
-  .cv-content {
-    background-color: #fff;
-    padding: 10px;
-    margin: 5px;
-    width: calc(50% - 10px); /* Adjust width */
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-    position: relative;
-  }
-
-  .portfolio-item img {
-    width: 100%;
-    border-radius: 8px;
-    height: auto;
-  }
-
-  .cv-content {
-    background-image: url(cvback.jpeg);
-    background-size: cover;
-  }
-
-  .cv-content p {
-    margin-bottom: 10px;
-  }
-
-  #contact {
-    text-align: center;
-  }
-
-  #contact p {
-    font-size: 0.9em;
-  }
-
-  #contact a {
-    color: #ff69b4;
-    text-decoration: none;
-  }
-
-  #contact a:hover {
-    text-decoration: underline;
-  }
-
-  .social-icons {
-    margin-top: 10px;
-  }
-
-  .social-icons a {
-    color: #fff;
-    margin: 0 10px;
-    font-size: 24px;
-    text-decoration: none;
-  }
-
-  .social-icons a:hover {
-    color: #ff69b4;
-  }
-
-  .skills {
-    margin-top: 10px;
-  }
-
-  .skill-box {
-    padding: 5px 10px;
-    margin: 5px;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: pink;
-  }
-
-  i {
-    color: #ff69b4;
-  }
-
-  /* Example: Hide a specific element on smaller screens */
-  .hide-on-small-screen {
-    display: none;
-  }
+    body {
+      font-size: 12px; /* Decrease font size for smaller screens */
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(white, pink);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden; 
+      overflow-y:scroll;
+    }
+  
+    .container {
+      width: 100%; /* Make containers full-width */
+      padding: 0 5px; /* Reduce padding for smaller screens */
+      overflow-x: hidden;
+    }
+  
+    header {
+      background-image: linear-gradient(#ffb6c1, white);
+      padding: 5px 0; /* Decrease padding for header */
+      text-align: center;
+      color: #fff;
+      position: relative;
+      margin: 0;
+      overflow-x: hidden;
+    }
+  
+    header h1 {
+      font-family: 'Lucida Handwriting', cursive;
+      font-size: 3em; /* Adjust heading size */
+      margin: 0;
+    }
+  
+    header p {
+      font-size: 0.8em; /* Adjust paragraph size */
+      margin: 0;
+    }
+  
+    nav {
+      margin-top: 5px; /* Adjust margin for navigation */
+    }
+  
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+  
+    nav ul li {
+      display: inline;
+      margin: 0 5px; /* Reduce margin for list items */
+    }
+  
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 0.9em; /* Adjust font size for navigation links */
+    }
+  
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+  
+    section {
+      padding: 30px 0; /* Adjust section padding */
+      position: relative;
+      z-index: 1;
+    }
+  
+    #hero {
+      padding: 40px 0; /* Adjust padding for hero section */
+      text-align: center;
+    }
+  
+    #hero h2 {
+      font-size: 1.5em; /* Adjust heading size */
+      margin-bottom: 10px; /* Adjust margin */
+    }
+  
+    #hero p {
+      margin-bottom: 20px; /* Adjust margin */
+    }
+  
+    #hero .btn {
+      font-size: 0.75em; /* Adjust button font size */
+      padding: 8px 16px; /* Adjust button padding */
+      margin-right: 350px; /* Adjust button margin */
+    }
+  
+    #hero img {
+      margin-right: 250px; /* Adjust image margin */
+    }
+  
+    .container p {
+      margin-right: 500px; /* Adjust paragraph margin */
+      width: 100%;
+      font-size:1em;
+    }
+  
+    h2 {
+      font-size: 1.5em; /* Adjust heading size */
+      margin-bottom: 20px; /* Adjust margin */
+    }
+  
+    h3 {
+      font-size: 1em; /* Adjust heading size */
+    }
+  
+    h4 {
+      font-size: 0.8em; /* Adjust heading size */
+      text-align: left;
+      margin-left: 0;
+      text-shadow: none;
+    }
+  
+    h6 {
+      font-size: 1.2em; /* Adjust heading size */
+    }
+  
+    h7 {
+      font-size: 1.5em; /* Adjust heading size */
+    }
+  
+    h7::after,
+    h2::after {
+      content: '';
+      display: block;
+      width: 30px; /* Adjust underline width */
+      height: 1px; /* Adjust underline thickness */
+      background-color: #ff69b4;
+      margin: 10px auto 0; /* Adjust margin */
+    }
+  
+    #about {
+      margin-top: -60px; /* Adjust negative margin */
+    }
+  
+    #about p,
+    #portfolio p,
+    #services p,
+    #cv p {
+      font-size: 0.9em; /* Adjust paragraph font size */
+      line-height: 1.4em; /* Adjust line height */
+      text-align: center;
+      margin: 0 auto 10px; /* Adjust margin */
+      width: 80%; /* Adjust width */
+    }
+  
+    .portfolio-items,
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .portfolio-item,
+    .service,
+    .cv-content {
+      background-color: #fff;
+      padding: 10px;
+      margin: 5px;
+      width: calc(100% - 10px); /* Adjust width */
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: center;
+      position: relative;
+    }
+  
+    .cv-content {
+      width: calc(80% - 10px); /* Adjust width */
+    }
+  
+    .portfolio-item img {
+      width: 100%;
+      border-radius: 8px;
+      height: auto;
+    }
+  
+    .cv-content {
+      background-image: url(cvback.jpeg);
+      background-size: cover;
+    }
+  
+    .cv-content p {
+      margin-bottom: 10px; /* Adjust margin */
+    }
+  
+    #contact {
+      text-align: center;
+    }
+  
+    #contact p {
+      font-size: 0.9em; /* Adjust paragraph font size */
+    }
+  
+    #contact a {
+      color: #ff69b4;
+      text-decoration: none;
+    }
+  
+    #contact a:hover {
+      text-decoration: underline;
+    }
+  
+    .social-icons {
+      margin-top: 5px; /* Adjust margin */
+    }
+  
+    .social-icons a {
+      color: #fff;
+      margin: 0 5px; /* Adjust margin */
+      font-size: 20px; /* Adjust icon size */
+      text-decoration: none;
+    }
+  
+    .social-icons a:hover {
+      color: #ff69b4;
+    }
+  
+    .skills {
+      margin-top: 10px; /* Adjust margin */
+    }
+  
+    .skill-box {
+      padding: 3px 6px; /* Adjust padding */
+      margin: 3px;
+      border: 1px solid white;
+      border-radius: 5px;
+      background-color: pink;
+    }
+  
+    i {
+      color: #ff69b4;
+    }
+  
+    /* Example: Hide a specific element on smaller screens */
+    .hide-on-small-screen {
+      display: none;
+    }
+  } 
 }
 
       
