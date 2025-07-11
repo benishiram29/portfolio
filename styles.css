@@ -690,7 +690,7 @@ nav ul li a:hover {
     #hero p {
         font-size: 1.2em;
         margin-bottom: 40px;
-        width: 90%;
+        width: 60% !important;
     }
 
     #hero .btn {
