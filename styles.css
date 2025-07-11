@@ -433,7 +433,8 @@ nav ul li a:hover {
         font-family: 'Lucida Handwriting', cursive;
         font-size: 2.5em;
         margin: 0;
-        margin-left: 300px;
+        margin-left: 160px !important;
+        width: 100%;
     }
 
     header h4 {
@@ -580,295 +581,6 @@ nav ul li a:hover {
 }
 
 
-@media screen and (max-width: 992px) {
-
-    html,
-    body {
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-        overflow-y: scroll;
-    }
-
-    body {
-        font-family: 'Times New Roman', Times, serif;
-        margin: 0;
-        padding: 0;
-        background-image: linear-gradient(white, pink);
-        color: #333;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        overflow: hidden;
-        overflow-y: scroll;
-    }
-
-    .container {
-        width: 100%;
-        /* Adjusted width */
-        margin: 0 auto;
-    }
-
-    header1 {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-image: linear-gradient(white, pink);
-        color: #fff;
-        padding: 10px 0;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
-    }
-
-    header {
-        background-image: linear-gradient(#ffb6c1, white);
-        padding: 20px 0;
-        text-align: center;
-        color: #fff;
-        position: relative;
-        margin: 0;
-    }
-
-    header h1 {
-        font-size: 2.2em;
-        margin-left: 250px;
-        width: 100%;
-    }
-
-    header h4 {
-        font-size: 1.5em;
-        /* Updated font size */
-    }
-
-    header img {
-        margin-left: 20px;
-        width: 250px;
-        height: 250px;
-    }
-
-    header p {
-        margin: 0;
-        font-size: 1.2em;
-    }
-
-    nav {
-        margin-top: 10px;
-    }
-
-    nav ul {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    nav ul li {
-        margin: 0 15px;
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-    }
-
-    nav ul li a:hover {
-        text-decoration: underline;
-    }
-
-    section {
-        padding: 60px 0;
-        position: relative;
-        z-index: 1;
-    }
-
-    #hero {
-        color: #fff;
-        text-align: center;
-        padding: 100px 0;
-        margin-top: -90px;
-    }
-
-    #hero h6 {
-        font-size: 1.6em;
-    }
-
-    #hero h7 {
-        font-size: 2em;
-    }
-
-    #hero h7::after {
-        margin-bottom: 90px;
-    }
-
-    #hero p {
-        font-size: 1.5em;
-    }
-
-    #about p {
-        width: 90%;
-    }
-
-    #hero img {
-        width: 250px;
-        height: 250px;
-        margin-right: 250px;
-    }
-
-    .container p {
-        margin-right: 750px;
-        width: 100%;
-    }
-
-    #hero .btn {
-        background-color: #ff69b4;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 1em;
-        /* Updated font size */
-        font-weight: bold;
-        margin-right: 350px;
-    }
-
-    #hero .btn:hover {
-        background-color: #fff;
-        color: black;
-    }
-
-    h2,
-    h3,
-    h4 {
-        text-align: center;
-        color: black;
-    }
-
-    h2 {
-        font-size: 2.5em;
-        margin-bottom: 40px;
-        position: relative;
-    }
-
-    h3 {
-        font-size: 1.5em;
-    }
-
-    h4 {
-        font-size: 1.5em;
-        text-align: center;
-        margin-left: -360px;
-        color: black;
-        text-shadow: 1px 1px white;
-    }
-
-    h7::after,
-    h2::after {
-        content: '';
-        display: block;
-        width: 50px;
-        height: 2px;
-        background-color: #ff69b4;
-        margin: 20px auto 0;
-    }
-
-    .portfolio-item,
-    .service,
-    .cv-content {
-        background-color: #fff;
-        padding: 20px;
-        margin: 10px;
-        width: calc(50% - 20px);
-        /* Updated width calculation */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        text-align: center;
-        position: relative;
-    }
-
-    .service h3 {
-        font-size: 1.3em;
-    }
-
-    .service p {
-        font-size: 1em;
-    }
-
-    .service img {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .cv-content {
-        border: 2px dashed #ff69b4;
-        padding: 20px;
-        background-color: #fff5f5;
-        width: 70%;
-        margin: 0 auto;
-    }
-
-    .cv-content .btn,
-    .btn {
-        background-color: #ff69b4;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 1.2em;
-        font-weight: bold;
-        display: inline-block;
-        margin-top: 20px;
-    }
-
-    .cv-content .btn:hover,
-    .btn:hover {
-        background-color: #ffb6c1;
-        color: #fff;
-    }
-
-    .social-icons {
-        margin-top: 10px;
-    }
-
-    .social-icons a {
-        color: #fff;
-        margin: 0 10px;
-        text-decoration: none;
-    }
-
-    .social-icons a:hover {
-        color: #ff69b4;
-    }
-
-    .skills {
-        margin-top: 20px;
-    }
-
-    .skill-box {
-        display: inline-block;
-        padding: 5px 10px;
-        margin: 5px;
-        border: 1px solid white;
-        border-radius: 5px;
-        background-color: pink;
-    }
-
-    i {
-        color: #ff69b4;
-    }
-
-    .content {
-        padding-top: 60px;
-    }
-}
-
-
-
 
 @media screen and (max-width: 768px) {
 
@@ -901,6 +613,9 @@ nav ul li a:hover {
         width: 100%;
         padding: 10px;
     }
+#contact p {
+    margin-left: 100px;
+}
 
     header {
         background-image: linear-gradient(#ffb6c1, white);
@@ -915,7 +630,7 @@ nav ul li a:hover {
         font-family: 'Lucida Handwriting', cursive;
         margin: 0;
         font-size: 2.5em;
-        margin-left: 160px !important;
+        margin-left: 140px !important;
         width: 100%;
     }
 
@@ -975,6 +690,7 @@ nav ul li a:hover {
     #hero p {
         font-size: 1.2em;
         margin-bottom: 40px;
+        width: 90%;
     }
 
     #hero .btn {
@@ -996,7 +712,7 @@ nav ul li a:hover {
     }
 
     #hero img {
-        margin-right: 300px;
+        margin-right: 350px;
     }
 
     .container p {
@@ -1075,7 +791,7 @@ nav ul li a:hover {
         line-height: 1.6em;
         text-align: center;
         margin: 0 auto 20px;
-        width: 75%;
+        width: 80%;
     }
 
     .portfolio-items,
