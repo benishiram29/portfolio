@@ -717,8 +717,10 @@ nav ul li a:hover {
 
     .container p {
         margin-right: 650px;
-        width: 80%;
+        width: 80% !important;
     }
+
+    
 
     h1,
     h4 {
