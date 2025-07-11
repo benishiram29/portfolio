@@ -464,6 +464,7 @@ nav ul li a:hover {
     #hero p {
         font-size: 1.5em;
         margin-bottom: 40px;
+        width: 80%;
     }
 
     #hero img {
