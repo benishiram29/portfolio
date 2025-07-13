@@ -796,7 +796,7 @@ footer {
 
 .logo {
         order: 3 !important; /* Ensure logo stays on top right */
-        margin-left: 200px !important;
+        margin-right: -30px !important;
 
     }
 
