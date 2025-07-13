@@ -48,9 +48,9 @@ header img {
     width: 350px;
     height: 350px;
     object-fit: cover;
-    object-position:
-        center;
+    object-position: center;
     margin-top: -50px;
+    margin-right: -100px;
 }
 
 nav {
@@ -106,8 +106,9 @@ section {
     margin-bottom: 40px;
     display: inline-block;
     text-align: left;
-    margin-left: 360px;
+    margin-left: 260px;
     color: black;
+
 }
 
 #hero .btn {
@@ -119,6 +120,7 @@ section {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
+    margin-right: 100px;
 }
 
 #hero .btn:hover {
@@ -139,13 +141,14 @@ h6 {
     font-family: 'Lucida Handwriting', cursive;
     font-size: 2em;
     margin-top: -20px;
+    margin-bottom: 5px;
 }
 
 h7 {
     font-size: 2.5em;
     display: inline-block;
     margin-left: -5px;
-    margin-top: -20px;
+    margin-top: 5px;
     color: black;
     font-weight: bold;
     text-align: center;
@@ -410,7 +413,7 @@ nav ul li a:hover {
     }
 
 
-    
+
     .container {
         width: 100%;
         margin: 0 auto;
@@ -587,7 +590,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 768px) {
 
-    
+
     html,
     body {
         overflow-x: hidden;
@@ -616,9 +619,10 @@ nav ul li a:hover {
         width: 100%;
         padding: 10px;
     }
-#contact p {
-    margin-left: 100px;
-}
+
+    #contact p {
+        margin-left: 100px;
+    }
 
     header {
         background-image: linear-gradient(#ffb6c1, white);
@@ -693,7 +697,9 @@ nav ul li a:hover {
     #hero p {
         font-size: 1.2em;
         margin-bottom: 40px;
-        width: 60% !important;
+        width: 50% !important;
+        text-align: center;
+      
     }
 
     #hero .btn {
@@ -723,7 +729,7 @@ nav ul li a:hover {
         width: 80% !important;
     }
 
-    
+
 
     h1,
     h4 {
@@ -748,7 +754,7 @@ nav ul li a:hover {
         font-size: 1.8em;
         display: inline-block;
         margin-left: -5px;
-     
+
         color: black;
         font-weight: bold;
         text-align: center;
@@ -994,8 +1000,6 @@ nav ul li a:hover {
             transform: translateY(0);
         }
     }
-    
+
 
 }
-
-
