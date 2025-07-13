@@ -234,6 +234,9 @@ h2::after {
     text-align: center;
     margin: 0 auto 20px;
 }
+#services p{
+  line-height: 1em !important;
+}
 
 .portfolio-items,
 .services {
@@ -255,6 +258,10 @@ h2::after {
     position: relative;
 }
 
+.service{
+  width: 40%!important;
+}
+
 .cv-content {
     background-image: url(cvback.jpeg);
     background-size: cover;
@@ -265,8 +272,6 @@ h2::after {
     border-radius: 10px;
     height: auto;
 }
-
-
 
 .cv-content p {
     margin-bottom: 15px;
@@ -464,6 +469,7 @@ footer {
     color: black;
     position: relative;
     margin: 0;
+    width: 100%;
 }
 
 
@@ -929,6 +935,11 @@ footer {
     border-radius: 10px;
     text-align: center;
   }
+
+
+.service{
+  height: 30%!important;
+}
 
   .cv-content {
     background-image: url(cvback.jpeg);
