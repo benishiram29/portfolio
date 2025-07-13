@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -396,6 +400,61 @@ nav ul li a:hover {
 }
 
 
+.whatsapp-form {
+    background-image: url(cvback.jpeg);
+    border: 2px dashed #ff69b4;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.whatsapp-form h3 {
+    color: #ff69b4;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.whatsapp-form input,
+.whatsapp-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.whatsapp-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+.whatsapp-form button {
+    cursor: pointer;
+}
+
+footer {
+
+   
+    font-family: 'Times New Roman', Times, serif;
+  
+    background-image: linear-gradient(#ffb6c1, white);
+    padding: 5px 0;
+    text-align: center;
+    color: black;
+    position: relative;
+    margin: 0;
+}
+
+
+
+
+
+
 @media screen and (max-width: 1200px) {
     body {
         font-family: 'Times New Roman', Times, serif;
@@ -583,6 +642,23 @@ nav ul li a:hover {
     i {
         color: #ff69b4;
     }
+
+
+    .whatsapp-form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .whatsapp-form h3 {
+        font-size: 1.6em;
+    }
+
+    .whatsapp-form input,
+    .whatsapp-form textarea {
+        width: 95%;
+        font-size: 0.95em;
+    }
+
 }
 
 
@@ -636,7 +712,7 @@ nav ul li a:hover {
        font-family: 'Playfair Display', serif;
         margin: 0;
         font-size: 2.5em;
-        margin-left: 30px !important;
+        margin-left: 70px !important;
         width: 100%;
     }
 
@@ -886,9 +962,11 @@ nav ul li a:hover {
     i {
         color: #ff69b4;
     }
-#contact .container:last-of-type p {
+footer{
     font-size: 1em; /* or try 0.8em or 12px */
     text-align: center;
+    margin-left: 130px;
+       padding: 1px 0;
 }
 
     
@@ -1001,5 +1079,29 @@ nav ul li a:hover {
         }
     }
 
+        .whatsapp-form {
+        width: 40%;
+        padding: 10px;
+    }
+
+    .whatsapp-form h3 {
+        font-size: 1.4em;
+    }
+
+    .whatsapp-form input,
+    .whatsapp-form textarea {
+        width: 90%;
+        font-size: 0.9em;
+    }
+.whatsapp-form button {
+    font-size: 0.9em;
+    padding: 8px 16px;
+    width: auto; /* ya specific: width: 150px; */
+    border-radius: 5px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    
+}
 
 }
