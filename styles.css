@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    margin-top: 40px;
 }
 
 .container {
@@ -36,6 +37,10 @@ header h1 {
     
 }
 
+.logo img {
+    height: 50px;
+    margin-left: -400px;
+}
 
 header p {
     margin: 0;
@@ -68,12 +73,17 @@ header img {
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: -10px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    align-items: center;
 }
 
 nav ul li {
@@ -496,6 +506,7 @@ footer {
     overflow-x: hidden;
     overflow-y: scroll;
     max-width: 100%;
+    margin-top: 40px;
   }
 
   .container {
@@ -512,6 +523,11 @@ footer {
     color: #fff;
     position: relative;
   }
+
+  .logo img {
+    height: 50px;
+    margin-left: -100px;
+}
 
   #hero h7::after {
     margin-bottom: 70px;
@@ -749,7 +765,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
   }
+  
 
   .container {
     width: 100%;
@@ -776,6 +794,12 @@ footer {
     text-align: center;
   }
 
+.logo {
+        order: 3 !important; /* Ensure logo stays on top right */
+        margin-left: 200px !important;
+
+    }
+
   header h4 {
     font-size: 1em;
   }
@@ -785,7 +809,8 @@ footer {
   }
 
   nav {
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: -20px;
   }
 
   nav ul {
