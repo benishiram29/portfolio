@@ -697,7 +697,7 @@ nav ul li a:hover {
     #hero p {
         font-size: 1.2em !important;
         margin-bottom: 40px;
-        width: 50% !important;
+        width: 30% !important;
         text-align: center !important;
       
     }
@@ -730,12 +730,6 @@ nav ul li a:hover {
     }
 
 
-
-    h1,
-    h4 {
-        display: inline-block;
-        text-align: left;
-    }
 
     #home h4 {
         font-size: 1.5em;
@@ -892,7 +886,12 @@ nav ul li a:hover {
     i {
         color: #ff69b4;
     }
+#contact .container:last-of-type p {
+    font-size: 1em; /* or try 0.8em or 12px */
+    text-align: center;
+}
 
+    
     header1 {
         position: fixed;
         top: 0;
