@@ -637,7 +637,8 @@ nav ul li a:hover {
         font-family: 'Lucida Handwriting', cursive;
         margin: 0;
         font-size: 2.5em;
-        margin-left: 140px !important;
+        align-self: center;
+        
         width: 100%;
     }
 
