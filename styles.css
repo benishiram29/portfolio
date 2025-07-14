@@ -438,7 +438,7 @@ nav ul li a:hover {
     width: 80%;
     margin: 30px auto;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -60px;
     margin-bottom: -50px;
 }
 
@@ -797,7 +797,7 @@ footer {
 .logo {
         order: 3 !important; /* Ensure logo stays on top right */
         margin-right: -30px !important;
-
+margin-top: -10px;
     }
 
   header h4 {
@@ -1105,6 +1105,7 @@ footer {
     width: 90%;
     padding: 10px;
     margin: 0 auto;
+    margin-top: -40px;
   }
 
   .whatsapp-form h3 {

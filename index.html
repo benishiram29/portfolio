@@ -281,11 +281,15 @@
         </div><br><br>
     </section>
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Benish Iram. All rights reserved.</p>
-        </div>
+       <div class="container">
+  <p>&copy; <span id="year"></span> Benish Iram. All rights reserved.</p>
+</div>
+
     </footer>
 
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
     <script>
         function sendWhatsApp() {
