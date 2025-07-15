@@ -792,6 +792,11 @@ footer {
     text-align: center;
     margin: 0;
   }
+  header img {
+  position: relative; /* ya absolute/fixed if needed */
+  z-index: 10; /* jitna zyada number, utna front par */
+}
+
 
   header h1 {
     font-family: 'Playfair Display', serif;
