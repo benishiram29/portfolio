@@ -292,23 +292,24 @@
 </script>
 
     <script>
-        function sendWhatsApp() {
-            const name = document.getElementById('whatsappName').value.trim();
-            const number = document.getElementById('whatsappNumber').value.trim();
-            const message = document.getElementById('whatsappMessage').value.trim();
+    function sendWhatsApp() {
+        const name = document.getElementById('whatsappName').value.trim();
+        const number = document.getElementById('whatsappNumber').value.trim();
+        const message = document.getElementById('whatsappMessage').value.trim();
 
-            if (name === "" || number === "" || message === "") {
-                alert("Please fill all fields.");
-                return;
-            }
-
-            const fullMessage = `Name: ${name}%0AWhatsApp No: ${number}%0AMessage: ${message}`;
-            const phoneNumber = "923303250069"; // 👈 your WhatsApp number without "+" or spaces
-
-            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`;
-            window.open(url, '_blank');
+        if (name === "" || number === "" || message === "") {
+            alert("Please fill all fields.");
+            return;
         }
-    </script>
+
+        const fullMessage = `Name: ${name}\nWhatsApp No: ${number}\nMessage: ${message}`;
+        const phoneNumber = "923303250069"; // Your WhatsApp number
+
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`;
+        window.open(url, '_blank');
+    }
+</script>
+
 
 
 </body>
